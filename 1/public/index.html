@@ -1,0 +1,46 @@
+   <html>
+    <head>
+        <title>Ofline Games</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="https://cdn.glitch.com/85899809-32bb-477b-91c4-3aa38d0d1b02%2Fupside-down-face_1f643.png?1519992486149"/>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      <div>
+        <h1>Ofline Games</h1>
+        <p>Ofline hosts games that</p>
+        <ol>
+          <li>Work Offline</li>
+          <li>Are in a 128x128 grid</li>
+          <li>Have 16 colors</li>
+        </ol>
+        <p>
+          Here's a list of games
+        </p>
+        <ul>
+          <li><a href="public/celeste.html">Celeste</a></li>
+          <li><a href="public/dusk.html">Dusk Child</a></li>
+          <li><a href="public/lair.html">The Lair</a></li>
+          <li><a href="public/shooter.html">Pat Shooter</a></li>
+          <li><a href="public/mistigri.html">Mistigri</a></li>
+          <li><a href="public/pool.html">Combo Pool</a></li>
+          <li><a href="public/tower.html">Tower of Archeos</a></li>
+          <li><a href="public/hug.html">Hug Arena</a></li>
+          <li><a href="public/racer.html">Pico Racer</a></li>
+          <li><a href="public/tempest.html">Tempest</a></li>
+           <li><a href="/crossyroad/index.html">Crossy Road</li>
+        </ul>
+        <p>
+          Contribute with more games, report issues, or discuss on <a href="https://github.com/jajoosam/ofline">Github</a>.<br>These games are hosted on <a href="https://glitch.com/~ofline">glitch</a>, and were created on <a href="https://www.lexaloffle.com/pico-8.php">pico-8</a>.
+        </p>
+      </div>
+      <script>
+      // Register your ServiceWorker to user's browser
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('/sw.js', {scope: '/'})
+      }
+      </script>
+    </body>
+</html>
+
